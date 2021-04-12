@@ -4,6 +4,11 @@
 
 #new branch
 
+#iniciar un repositorio
+
+`git init`
+
+
 
 git add.
 git commit -m ""
