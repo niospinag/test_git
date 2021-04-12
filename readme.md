@@ -1,24 +1,25 @@
-#Hi
+#Comandos mas populares en GIT
 
-#Hello
-
-#new branch
-
-#iniciar un repositorio
+##iniciar un repositorio
 
 `git init`
 
+## agregar cambios al repositorio local
+
+`git add.`
+
+## Agregar cpmentario a los cambios
+`git commit -m "comment"`
 
 
-git add.
-git commit -m ""
+## agregar o cambiar de rama
+`git checkout -b new`
 
-git checkout -b new
+`git remote add origin https://github.com/niospinag/test_git.git`
 
-git remote add origin https://github.com/niospinag/test_git.git
 
-git push -u origin master
-git config --global user.name "Nestor"
-git config --global user.email "niospinag@unal.edu.co"
+`git push -u origin master`
+`git config --global user.name "Nestor"`
+`git config --global user.email "niospinag@unal.edu.co"`
 
 
