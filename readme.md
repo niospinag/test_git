@@ -1,10 +1,11 @@
-#Comandos mas populares en GIT
 
-##iniciar un repositorio
+# Comandos mas populares en GIT
+
+## Iniciar un repositorio
 
 `git init`
 
-## agregar cambios al repositorio local
+## Agregar cambios al repositorio local
 
 `git add.`
 
@@ -12,7 +13,7 @@
 `git commit -m "comment"`
 
 
-## agregar o cambiar de rama
+## Agregar o cambiar de rama
 `git checkout -b new`
 
 `git remote add origin https://github.com/niospinag/test_git.git`
