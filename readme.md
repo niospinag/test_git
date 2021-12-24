@@ -39,3 +39,5 @@
 `git config --global user.name "Nestor"`
 `git config --global user.email "niospinag@unal.edu.co"`
 
+## Guardar permanentemente los datos y passwords ingresados
+`git config --global credential.helper store`
