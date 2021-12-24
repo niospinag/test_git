@@ -8,7 +8,7 @@
 
 ## Agregar cambios al repositorio local
 
-`git add.`
+`git add .`
 
 ## Agregar cpmentario a los cambios
 `git commit -m "comment"`
