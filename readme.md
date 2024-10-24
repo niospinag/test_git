@@ -39,6 +39,7 @@
 `git config --global user.name "Nestor"`
 `git config --global user.email "niospinag@unal.edu.co"`
 
+<<<<<<< HEAD
 ## configurar el editor por defecto, abrir el archivo de config y configurar el auto crlf
 `git config --global core.editor "code --wait"`
 `git config --global -e` 
@@ -56,3 +57,7 @@ si es para MAC
 
 ## restaurar el archivo borrado
 `git restore archivo1.txt`
+=======
+## Guardar permanentemente los datos y passwords ingresados
+`git config --global credential.helper store`
+>>>>>>> cb867a69e09db20ae90a502c763142d139635e99
