@@ -35,7 +35,24 @@
 `git checkout new`
 `git push origin new`
 
-## configurar el usuario y el mail
+## configurar el usuario el email 
 `git config --global user.name "Nestor"`
 `git config --global user.email "niospinag@unal.edu.co"`
 
+## configurar el editor por defecto, abrir el archivo de config y configurar el auto crlf
+`git config --global core.editor "code --wait"`
+`git config --global -e` 
+si es para win
+`git config --global core.autocrlf true`
+si es para MAC
+`git config --global core.autocrlf input`
+`git config -h`
+
+## eliminar un archivo agregandolo de inmediato a stage
+`git rm archivo1.txt`
+
+## sacar del stage el archivo un archivo
+`git restore --staged archivo1.txt`
+
+## restaurar el archivo borrado
+`git restore archivo1.txt`
